@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: SpringMongoDb
+
+  data:
+    mongodb:
+      uri: mongodb+srv://ompraveer:basicpassword@omikadb.iwo4k.mongodb.net/?retryWrites=true&w=majority&appName=OmiKaDB
+      database: JournalEntries
+      auto-index-creation: true
+
+
+server:
+  port: 8008
